@@ -1,5 +1,5 @@
 * 程式碼中另有對程式理解後下的詳細註解
-https://github.com/ayd0122344/se109a/blob/master/homework/exercise1/linklist.jpg
+!()[https://github.com/ayd0122344/se109a/blob/master/homework/exercise1/linklist.jpg]
 
 * enqueue
 
