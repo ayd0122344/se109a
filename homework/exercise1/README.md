@@ -10,7 +10,9 @@
   
   * 情況2: 新增的資料非此linklist的第一筆資料 => 必須找到目前linklist中的最後一個node
 
-    1.將頭頭的資料放入變數tail，並使用while去尋找: 若tail.next不是null(也就是下一個節點還有資料)，則將下一節點設為tail(tail=tail.next)，loop一直到tail.next是null(找到尾巴了!)跳出迴圈
+    1. 將頭頭的資料放入變數tail，並使用while去尋找: 
+    
+       * 若tail.next不是null(也就是下一個節點還有資料)，則將下一節點設為tail(tail=tail.next)，loop一直到tail.next是null(找到尾巴了!)跳出迴圈
     
     2. 此時的tail是倒數第二個節點，所以tail.next才是真正的尾巴。
     
