@@ -17,6 +17,17 @@
     2. 此時的tail是倒數第二個節點，所以tail.next才是真正的尾巴。
     
     3. 將剛new好的node變成新尾巴!(tail.next=node)
+    
+* dequeue
+
+  step1. 回傳this.head.data，也就是第一筆入的node中的資料
+  
+  step2. linklist中用第二筆資料取代的第一筆資料(換頭!)
+
+```
+let current = this.head;//將目前的頭頭放入變數current
+this.head=current.next;//將目前頭頭的下一筆資料(連帶後面的資料)變成新頭頭
+```
   
   
 ### 參考資料
