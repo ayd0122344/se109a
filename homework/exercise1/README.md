@@ -1,6 +1,6 @@
 * 程式碼中另有對程式理解後下的詳細註解
 
-<img src="https://github.com/ayd0122344/se109a/blob/master/homework/exercise1/linklist.jpg" width=300/> ● 鏈結串列示意圖
+<img src="https://github.com/ayd0122344/se109a/blob/master/homework/exercise1/linklist.jpg" width=400/> ◎ 鏈結串列示意圖
 
 * enqueue
 
@@ -8,7 +8,7 @@
   
     * 剛new好的node(也就是已有放入資料的節點)直接成為頭頭(head)
     
-    <img src="https://github.com/ayd0122344/se109a/blob/master/homework/exercise1/newnode.jpg" width=300/> ● 剛new好的node示意圖
+    <img src="https://github.com/ayd0122344/se109a/blob/master/homework/exercise1/newnode.jpg" width=300/> ◎ 剛new好的node示意圖
   
   * 情況2: 新增的資料非此linklist的第一筆資料 => 必須找到目前linklist中的最後一個node
 
