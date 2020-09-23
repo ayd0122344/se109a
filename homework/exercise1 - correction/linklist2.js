@@ -1,7 +1,7 @@
 class Node{
   constructor(data){
-    this.data=data;//every data saves in "data"
-    this.next=null;//node.next default "null"
+    this.data=data;
+    this.next=null;
   }
 }
 class linklist{
@@ -12,17 +12,17 @@ class linklist{
     
   }
   enqueue(data) {
-    //new a node
+    
     let node = new Node(data);
     
-    if(!this.head){//if it is the first one => save directly
+    if(!this.head){
     this.head=node;
     }
     else if(!this.Rtail){
       this.Rtail=node;
       this.head.next=this.Rtail;
     }
-    else //find tail
+    else
     {
       let tail=this.Rtail;
       this.Rtail=node;
@@ -35,11 +35,11 @@ class linklist{
   dequeue() {
       let r=0;
       if(this.length==0) return "This queue is empty!";
-      else r=this.head.data;//put the first one into r
-      let current = this.head;//put the head into current
-      this.head=current.next;//let the next node become first node(head)
+      else r=this.head.data;
+      let current = this.head;
+      this.head=current.next;
       this.length--;
-      return r;// return the first one
+      return r;
   }
 }
 
