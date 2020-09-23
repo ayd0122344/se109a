@@ -1,3 +1,5 @@
+◎ 主要函式bsearch
+
 ```
 function bsearch(a, o, from, to) {
     if (from > to) return null
