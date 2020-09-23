@@ -39,6 +39,10 @@ this.head=current.next;//將目前頭頭的下一筆資料(連帶後面的資料
 ### 印出指令及成果
 
 
-* 指令列 ，，， <img src="https://github.com/ayd0122344/se109a/blob/master/homework/exercise1/instruction.jpg" width=300/> 
+* 指令列
 
-* 成果展示 ，，， <img src="https://github.com/ayd0122344/se109a/blob/master/homework/exercise1/result.jpg" width=1000/> 
+<img src="https://github.com/ayd0122344/se109a/blob/master/homework/exercise1/instruction.jpg" width=300/> 
+
+* 成果展示
+
+<img src="https://github.com/ayd0122344/se109a/blob/master/homework/exercise1/result.jpg" width=1000/> 
