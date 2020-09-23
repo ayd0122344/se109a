@@ -16,7 +16,7 @@ function bsearch(a, o, from, to) {
             to=mid;
             from=0;
         }
-        mid = Math.floor((from + to)/2) //用心的from跟to找中件數並重新loop
+        mid = Math.floor((from + to)/2) //用新的from跟to找中間數並重新loop
     }
 
   }
