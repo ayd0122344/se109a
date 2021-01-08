@@ -14,7 +14,6 @@ const expect = function (obj) {
 Deno.test("gte test", () => {
   const x = _.gte(3, 1); // => true
   console.log('x=', x)
-  //console.log("expect=",expect(x).to.be)
   assert(expect(x).to.be === true)
 
   const y = _.gte(3, 3); // => true
