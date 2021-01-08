@@ -1,8 +1,8 @@
 var v = [55,24,89,72,53,69,11],root = {};
 for (let i of v){
     insert(i);
-    console.log(root)
 }
+console.log(root)
 function insert(value) {
     if (root.value == undefined) {
         root.value = value;
