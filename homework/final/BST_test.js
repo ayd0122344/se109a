@@ -36,6 +36,6 @@ Deno.test("BST_test", () => {
   _.remove(root, 55)
   console.log("after delete 55, root=",root)
   _.remove(root, 24)
-  console.log("after delete 55, root=",root)
+  console.log("after delete 24, root=",root)
   assert(_.remove(root, 23) === null)
 })
