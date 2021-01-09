@@ -59,6 +59,8 @@ if (value < root.value) {
 
 [删除Javascript树中的节点](https://www.codenong.com/Removing-a-node-in-a-Javascript-Tree/)
 
+[Tree Traversal via JavaScript](https://www.digitalocean.com/community/tutorials/js-tree-traversal)
+
 ### 演算法說明
 
 > 主程式含大量註解說明
@@ -89,26 +91,38 @@ if (value < root.value) {
 
 ```
 nan@20190116-01 MINGW64 ~/Desktop/se109a/se109a/homework/final (master)
-$ deno test BST_test.js
+$ deno test
 Check file:///C:/Users/nan/Desktop/se109a/se109a/homework/final/.deno.test.ts
 running 1 tests
 test BST_test ... {"value":55,"left":{"value":24,"right":{"value":53},"left":{"value":11}},"right":{"value":89,"left":{"value":72,"left":{"value":69}}}}
+inorder= [
+  11, 24, 53, 55,
+  69, 72, 89
+]
+preorder= [
+  55, 24, 11, 53,
+  89, 72, 69
+]
+postorder= [
+  11, 53, 24, 69,
+  72, 89, 55
+]
 {
   value: 55,
   left: { value: 24, right: { value: 53 }, left: { value: 11 } },
   right: { value: 89, left: { value: 72, left: { value: 69 } } }
 }
-{
+after delete 55, root= {
   value: 69,
   left: { value: 24, right: { value: 53 }, left: { value: 11 } },
   right: { value: 89, left: { value: 72, left: {} } }
 }
-{
+after delete 24, root= {
   value: 69,
   left: { value: 53, right: {}, left: { value: 11 } },
   right: { value: 89, left: { value: 72, left: {} } }
 }
-ok (197ms)
+ok (48ms)
 
-test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (209ms)
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (58ms)
 ```
