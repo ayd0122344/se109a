@@ -117,7 +117,7 @@ after delete 55, root= {
   left: { value: 24, right: { value: 53 }, left: { value: 11 } },
   right: { value: 89, left: { value: 72, left: {} } }
 }
-after delete 55, root= {
+after delete 24, root= {
   value: 69,
   left: { value: 53, right: {}, left: { value: 11 } },
   right: { value: 89, left: { value: 72, left: {} } }
