@@ -1,6 +1,40 @@
 # 期末報告 - Binary Search Tree
 
-### remove()的刪除流程
+### 演算法說明
+
+> 主程式含大量註解說明
+
+[主程式入口](https://github.com/ayd0122344/se109a/blob/master/homework/final/BST.js)
+
+[測試檔案入口](https://github.com/ayd0122344/se109a/blob/master/homework/final/BST_test.js)
+
+### 參考資料
+
+[Binary Search Tree](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/tree/binary-search-tree)
+
+[删除Javascript树中的节点](https://www.codenong.com/Removing-a-node-in-a-Javascript-Tree/)
+
+[Tree Traversal via JavaScript](https://www.digitalocean.com/community/tutorials/js-tree-traversal)
+
+### 複雜度
+
+<table>
+  <tr>
+    <th>Access</th>
+    <th>search</th>
+    <th>insertion</th>
+    <th>deletion</th>
+  </tr>
+  <tr>
+    <td>O(log(n))</td>
+    <td>O(log(n))</td>
+    <td>O(log(n))</td>
+    <td>O(log(n))</td>
+  </tr>
+
+</table>
+
+### 重點筆記:remove()的刪除流程
 
 1. 假設有以下此樹，而我們要刪除11這個節點，且當前root為此樹
 
@@ -52,40 +86,6 @@ if (value < root.value) {
 ![](https://github.com/ayd0122344/se109a/blob/master/homework/final/img/tree5.jpg)
 
 完成刪除節點的工作!
-
-### 參考資料
-
-[Binary Search Tree](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/tree/binary-search-tree)
-
-[删除Javascript树中的节点](https://www.codenong.com/Removing-a-node-in-a-Javascript-Tree/)
-
-[Tree Traversal via JavaScript](https://www.digitalocean.com/community/tutorials/js-tree-traversal)
-
-### 演算法說明
-
-> 主程式含大量註解說明
-
-[主程式入口](https://github.com/ayd0122344/se109a/blob/master/homework/final/BST.js)
-
-[測試檔案入口](https://github.com/ayd0122344/se109a/blob/master/homework/final/BST_test.js)
-
-### 複雜度
-
-<table>
-  <tr>
-    <th>Access</th>
-    <th>search</th>
-    <th>insertion</th>
-    <th>deletion</th>
-  </tr>
-  <tr>
-    <td>O(log(n))</td>
-    <td>O(log(n))</td>
-    <td>O(log(n))</td>
-    <td>O(log(n))</td>
-  </tr>
-
-</table>
 
 ### 測試結果
 
