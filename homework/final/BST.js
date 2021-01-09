@@ -95,7 +95,7 @@ export function remove(root, value) {
             delete root.value; // 直接把此節點清空!
             return root;
         }
-        // 第二種情況:欲刪除之節點有一個child
+        // 第二種情況:欲刪除之節點只有一個child
         if (!root.left) return root.right; // child在右子樹，child取代欲刪除之節點位置
         if (!root.right) return root.left; // child在右子樹，child取代欲刪除之節點位置
 
