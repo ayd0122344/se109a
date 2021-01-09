@@ -13,6 +13,24 @@
 [主程式入口](https://github.com/ayd0122344/se109a/blob/master/homework/final/BST.js)
 [測試檔案入口](https://github.com/ayd0122344/se109a/blob/master/homework/final/BST_test.js)
 
+### 複雜度
+
+<table>
+  <tr>
+    <th>Access</th>
+    <th>search</th>
+    <th>insertion</th>
+    <th>deletion</th>
+  </tr>
+  <tr>
+    <td>O(log(n))</td>
+    <td>O(log(n))</td>
+    <td>O(log(n))</td>
+    <td>O(log(n))</td>
+  </tr>
+
+</table>
+
 ### 測試結果
 
 ```
