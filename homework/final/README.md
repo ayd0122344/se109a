@@ -3,6 +3,7 @@
 ### 參考資料
 
 [Binary Search Tree](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/tree/binary-search-tree)
+
 [删除Javascript树中的节点](https://www.codenong.com/Removing-a-node-in-a-Javascript-Tree/)
 
 ### 測試結果
