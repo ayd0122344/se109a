@@ -2,9 +2,6 @@ import _ from './mod.js'
 import {
   assert
 } from "https://deno.land/std@0.63.0/testing/asserts.ts";
-import {
-  preorder
-} from './BST.js';
 
 Deno.test("BST_test", () => {
   var v = [55, 24, 89, 72, 53, 69, 11],
@@ -19,6 +16,8 @@ Deno.test("BST_test", () => {
   _.inorder(root)
   _.preorder(root)
   _.postorder(root)
+  _.findMin(root)
+  _.findMax(root)
 
   assert(_.searchNode(root, 72) === true)
   assert(_.searchNode(root, 23) === null)
@@ -34,9 +33,9 @@ Deno.test("BST_test", () => {
 
   console.log(root)
   _.remove(root, 55)
-  console.log("after delete 55, root=",root)
+  console.log("after delete 55, root=", root)
   _.remove(root, 24)
-  console.log("after delete 24, root=",root)
+  console.log("after delete 24, root=", root)
   assert(_.remove(root, 23) === null)
 })
 

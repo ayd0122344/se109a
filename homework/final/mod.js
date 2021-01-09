@@ -25,6 +25,12 @@ import {
 import {
     postorder
 } from './BST.js'
+import {
+    findMin
+} from './BST.js'
+import {
+    findMax
+} from './BST.js'
 
 const _ = {}
 export default _
@@ -37,3 +43,5 @@ _.remove = remove
 _.inorder = inorder
 _.preorder = preorder
 _.postorder = postorder
+_.findMin = findMin
+_.findMax = findMax

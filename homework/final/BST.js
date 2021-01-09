@@ -116,15 +116,17 @@ export function remove(root, value) {
 }
 
 export function findMin(root) {
-    if (!root.left)
-        return root.value
-    else findMin(root.left)
+    if (root.left) {
+        findMin(root.left)
+    } else {
+        return console.log("Minimum=",root.value)
+    }
 }
 
 export function findMax(root) {
-    if (!root.right)
-        return root.value
-    else findMin(root.right)
+    if (root.right) {
+        findMax(root.right)
+    } else return console.log("Maximum=",root.value)
 }
 
 
@@ -135,13 +137,13 @@ export function inorder(root) {
 
     function traverse(root) {
         if (root.left) {
-            traverse(root.left);// 找到最左的節點
+            traverse(root.left); // 找到最左的節點
         }
-        visited.push(root.value);// 將此節點印出，每跳出一層遞迴都會先執行此行，也就是中間節點會被印出
-        if (root.right) traverse(root.right);// 如果有右邊節點，則將此右節點放入遞迴
+        visited.push(root.value); // 將此節點印出，每跳出一層遞迴都會先執行此行，也就是中間節點會被印出
+        if (root.right) traverse(root.right); // 如果有右邊節點，則將此右節點放入遞迴
     };
     traverse(root);
-    console.log("inorder=",visited);
+    console.log("inorder=", visited);
 }
 
 export function preorder(root) {
@@ -155,7 +157,7 @@ export function preorder(root) {
         if (root.right) traverse(root.right);
     };
     traverse(root);
-    console.log("preorder=",visited);
+    console.log("preorder=", visited);
 }
 export function postorder(root) {
     let visited = []
@@ -168,5 +170,5 @@ export function postorder(root) {
         visited.push(root.value);
     };
     traverse(root);
-    console.log("postorder=",visited);
+    console.log("postorder=", visited);
 }
