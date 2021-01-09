@@ -59,6 +59,8 @@ if (value < root.value) {
 
 [删除Javascript树中的节点](https://www.codenong.com/Removing-a-node-in-a-Javascript-Tree/)
 
+[Tree Traversal via JavaScript](https://www.digitalocean.com/community/tutorials/js-tree-traversal)
+
 ### 演算法說明
 
 > 主程式含大量註解說明
