@@ -138,7 +138,7 @@ export function inorder(root) {
         if (root.right) traverse(root.right);
     };
     traverse(root);
-    console.log(visited);
+    console.log("inorder=",visited);
 }
 
 export function preorder(root) {
@@ -152,7 +152,7 @@ export function preorder(root) {
         if (root.right) traverse(root.right);
     };
     traverse(root);
-    console.log(visited);
+    console.log("preorder=",visited);
 }
 export function postorder(root) {
     let visited = []
@@ -165,5 +165,5 @@ export function postorder(root) {
         visited.push(root.value);
     };
     traverse(root);
-    console.log(visited);
+    console.log("postorder=",visited);
 }
