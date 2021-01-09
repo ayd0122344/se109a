@@ -127,15 +127,18 @@ export function findMax(root) {
     else findMin(root.right)
 }
 
+
+// 以下為traverse，方法都相同只有順序不一樣
+// inorder依序遍歷左 → 中 → 右，preorder依序遍歷左 → 中 → 右，postprder依序遍歷左 → 中 → 右
 export function inorder(root) {
     let visited = []
 
     function traverse(root) {
         if (root.left) {
-            traverse(root.left);
+            traverse(root.left);// 找到最左的節點
         }
-        visited.push(root.value);
-        if (root.right) traverse(root.right);
+        visited.push(root.value);// 將此節點印出，每跳出一層遞迴都會先執行此行，也就是中間節點會被印出
+        if (root.right) traverse(root.right);// 如果有右邊節點，則將此右節點放入遞迴
     };
     traverse(root);
     console.log("inorder=",visited);
