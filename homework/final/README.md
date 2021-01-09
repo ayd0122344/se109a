@@ -6,6 +6,12 @@
 
 [删除Javascript树中的节点](https://www.codenong.com/Removing-a-node-in-a-Javascript-Tree/)
 
+### 演算法說明
+
+> 主程式含大量註解說明
+
+[主程式入口](https://github.com/ayd0122344/se109a/blob/master/homework/final/BST.js)
+[測試檔案入口](https://github.com/ayd0122344/se109a/blob/master/homework/final/BST_test.js)
 
 ### 測試結果
 
