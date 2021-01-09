@@ -29,7 +29,7 @@ test BST_test ... {"value":55,"left":{"value":24,"right":{"value":53},"left":{"v
   left: { value: 53, right: {}, left: { value: 11 } },
   right: { value: 89, left: { value: 72, left: {} } }
 }
-ok (219ms)
+ok (197ms)
 
-test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (221ms)
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (209ms)
 ```
