@@ -1,7 +1,13 @@
 # Binary Search Tree
 
+### 參考資料
 
-測試結果
+[Binary Search Tree](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/tree/binary-search-tree)
+
+[删除Javascript树中的节点](https://www.codenong.com/Removing-a-node-in-a-Javascript-Tree/)
+
+### 測試結果
+
 ```
 nan@20190116-01 MINGW64 ~/Desktop/se109a/se109a/homework/final (master)
 $ deno test BST_test.js
