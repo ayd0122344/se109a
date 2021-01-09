@@ -16,6 +16,15 @@ import {
 import {
     remove
 } from './BST.js'
+import {
+    inorder
+} from './BST.js'
+import {
+    preorder
+} from './BST.js'
+import {
+    postorder
+} from './BST.js'
 
 const _ = {}
 export default _
@@ -25,3 +34,6 @@ _.searchNode = searchNode
 _.searchSubtree = searchSubtree
 _.searchParent = searchParent
 _.remove = remove
+_.inorder = inorder
+_.preorder = preorder
+_.postorder = postorder

@@ -2,6 +2,9 @@ import _ from './mod.js'
 import {
   assert
 } from "https://deno.land/std@0.63.0/testing/asserts.ts";
+import {
+  preorder
+} from './BST.js';
 
 Deno.test("BST_test", () => {
   var v = [55, 24, 89, 72, 53, 69, 11],
@@ -13,6 +16,9 @@ Deno.test("BST_test", () => {
     _.insert(root, i);
   }
   console.log(JSON.stringify(root))
+  _.inorder(root)
+  _.preorder(root)
+  _.postorder(root)
 
   assert(_.searchNode(root, 72) === true)
   assert(_.searchNode(root, 23) === null)

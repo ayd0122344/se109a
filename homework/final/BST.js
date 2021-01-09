@@ -114,3 +114,56 @@ export function remove(root, value) {
         // 這樣的刪除方式是為了刪除完某節點後整棵樹還是能符合BST的規則
     }
 }
+
+export function findMin(root) {
+    if (!root.left)
+        return root.value
+    else findMin(root.left)
+}
+
+export function findMax(root) {
+    if (!root.right)
+        return root.value
+    else findMin(root.right)
+}
+
+export function inorder(root) {
+    let visited = []
+
+    function traverse(root) {
+        if (root.left) {
+            traverse(root.left);
+        }
+        visited.push(root.value);
+        if (root.right) traverse(root.right);
+    };
+    traverse(root);
+    console.log(visited);
+}
+
+export function preorder(root) {
+    let visited = []
+
+    function traverse(root) {
+        visited.push(root.value);
+        if (root.left) {
+            traverse(root.left);
+        }
+        if (root.right) traverse(root.right);
+    };
+    traverse(root);
+    console.log(visited);
+}
+export function postorder(root) {
+    let visited = []
+
+    function traverse(root) {
+        if (root.left) {
+            traverse(root.left);
+        }
+        if (root.right) traverse(root.right);
+        visited.push(root.value);
+    };
+    traverse(root);
+    console.log(visited);
+}
