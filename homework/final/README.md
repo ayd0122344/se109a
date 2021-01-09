@@ -107,6 +107,8 @@ postorder= [
   11, 53, 24, 69,
   72, 89, 55
 ]
+Minimum= 11
+Maximum= 89
 {
   value: 55,
   left: { value: 24, right: { value: 53 }, left: { value: 11 } },
@@ -122,7 +124,7 @@ after delete 24, root= {
   left: { value: 53, right: {}, left: { value: 11 } },
   right: { value: 89, left: { value: 72, left: {} } }
 }
-ok (48ms)
+ok (86ms)
 
-test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (58ms)
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (95ms)
 ```
