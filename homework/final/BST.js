@@ -131,7 +131,7 @@ export function findMax(root) {
 
 
 // 以下為traverse，方法都相同只有順序不一樣
-// inorder依序遍歷左 → 中 → 右，preorder依序遍歷左 → 中 → 右，postprder依序遍歷左 → 中 → 右
+// inorder依序遍歷左 → 中 → 右，preorder依序遍歷中 → 左 → 右，postprder依序遍歷左 → 右 → 中
 export function inorder(root) {
     let visited = []
 
