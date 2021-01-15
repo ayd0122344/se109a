@@ -45,11 +45,19 @@ https://git-scm.com/book/zh-tw/v2
 
 * Git 專案的三個主要區域：
 
-1. Git 資料夾（git directory）
+1. Git 資料夾（git directory）:Git 用來儲存你專案的後設資料及物件資料庫的地方。當你克隆一個其他電腦的儲存庫時，這個資料夾也同時會被複製。
 
-2. 工作目錄（working directory）
+2. 工作目錄（working directory）: 專案被檢出的某一個版本。 這些檔案從 Git 目錄內被壓縮過的資料庫中拉出來並放在硬碟供你使用或修改。
 
-3. 預存區（staging area）
+3. 預存區（staging area）: 是一個單一檔案，一般來說放在 Git 目錄下，儲存關於下次提交的資訊。 
+
+* 基本 Git 工作流程：
+
+1. 你在你工作目錄修改檔案。
+
+2. 預存檔案，將檔案的快照新增到預存區。
+
+3. 做提交的動作，這會讓存在預存區的檔案快照永久地儲存在 Git 目錄中。
 
 ![](https://git-scm.com/book/en/v2/images/areas.png)
 
