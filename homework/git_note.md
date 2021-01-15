@@ -59,7 +59,5 @@ https://git-scm.com/book/zh-tw/v2
 
 3. 做提交的動作，這會讓存在預存區的檔案快照永久地儲存在 Git 目錄中。
 
-![](https://git-scm.com/book/en/v2/images/areas.png)
-
-> 圖片取自: https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-Git-%E5%9F%BA%E7%A4%8E%E8%A6%81%E9%BB%9E
+![](https://github.com/ayd0122344/se109a/blob/master/homework/img/file_state.jpg)
   
