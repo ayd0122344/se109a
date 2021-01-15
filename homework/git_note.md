@@ -1,6 +1,6 @@
 # 學習git/github基礎之心得報告
 
-參考資料:
+參考資料來源:
 https://git-scm.com/book/zh-tw/v2
 
 ## 重點筆記
@@ -52,4 +52,6 @@ https://git-scm.com/book/zh-tw/v2
 3. 預存區（staging area）
 
 ![](https://git-scm.com/book/en/v2/images/areas.png)
+
+> 圖片取自: https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-Git-%E5%9F%BA%E7%A4%8E%E8%A6%81%E9%BB%9E
   
