@@ -61,3 +61,34 @@ https://git-scm.com/book/zh-tw/v2
 
 ![](https://github.com/ayd0122344/se109a/blob/master/homework/img/file_state.jpg)
   
+* 初次設定 Git
+
+ * `git config` : 讓你取得和設定組態參數
+ 
+ * `git config --global user.name "John Doe"`:設定連接github上的使用者名稱
+ 
+ * `git config --global user.email johndoe@example.com`:設定連接github上的使用者電子信箱
+ 
+ * `git config --list`:在命令列列出所有 Git 在目前位置能找到的設定值
+ 
+ * `git config <key>`:用來檢視某個設定<key>目前的值
+ 
+* 取得說明文件
+
+ * 三種取得 Git 命令說明文件的方法：
+
+ 1. `git help <verb>`
+ 
+ 2. `git <verb> --help`
+ 
+ 3. `man git-<verb>`
+
+> 如:verb可以是config => `git help config`:可以取得 config 命令的說明文件
+
+* 取得一個 Git 倉儲
+
+ * 有兩種主要方法來取得一個 Git 倉儲:
+ 
+ 1. 將現有的專案或者資料夾匯入 Git
+ 
+ 2 從其它伺服器克隆（clone）一份現有的 Git 倉儲
