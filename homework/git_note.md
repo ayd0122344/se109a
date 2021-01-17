@@ -71,7 +71,7 @@ https://git-scm.com/book/zh-tw/v2
  
    * `git config --list`:在命令列列出所有 Git 在目前位置能找到的設定值
  
-   * `git config <key>`:用來檢視某個設定<key>目前的值
+   * `git config <key>`:用來檢視某個設定(key)目前的值
  
 * 取得說明文件:
 
@@ -90,5 +90,23 @@ https://git-scm.com/book/zh-tw/v2
    * 有兩種主要方法來取得一個 Git 倉儲:
  
    1. 將現有的專案或者資料夾匯入 Git
+      
+      * `git init`:建立一個名為 .git 的子資料夾，其中包含 Git 所有必需的倉儲檔案
+      
+      * 如果專案資料夾原本已經有檔案（不是空的），那麼應該馬上追蹤這些原本就有的檔案，然後進行第一次提交。
+
+      * `git add *.c`:追蹤完所有你想要追蹤的檔案
+
+      * `git add LICENSE`:新增憑證
+
+      * `git commit -m 'initial project version'`:提交
  
    2 從其它伺服器克隆（clone）一份現有的 Git 倉儲
+   
+      * `git clone [url]`:克隆現有的倉儲
+      
+* 檢查檔案狀態:  
+
+   * `git status`:偵測哪些檔案處在什麼樣的狀態下的主要工具
+ 
+   * `git status -s`:得到一個簡短的檔案狀態輸出內容
